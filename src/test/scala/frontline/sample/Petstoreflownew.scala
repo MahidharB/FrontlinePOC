@@ -1,4 +1,4 @@
-package computerdatabase
+package frontline.sample
 import scala.concurrent.duration._
 
 import io.gatling.core.Predef._
