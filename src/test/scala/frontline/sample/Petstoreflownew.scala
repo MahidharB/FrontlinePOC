@@ -416,7 +416,7 @@ class Petstoreflownew extends Simulation {
 		)*/
 
 	setUp(
-		scn.inject(constantConcurrentUsers(15) during(120 second ))).maxDuration(2.minutes)
+		scn.inject(constantConcurrentUsers(5) during(600 second ))).maxDuration(10.minutes)
 			//atOnceUsers(1),
 			//rampUsers(1) during (30 second)
 		.protocols(httpProtocol)
